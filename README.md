@@ -1,4 +1,4 @@
-原作者很久未更新了，本着研究学习的目的重新配置了一下最新版本android studio(0.8.9)的项目文件，方便一键生成调试，定期适配最新版本的android studio，并根据自己的学习修改相应的源代码，有兴趣的朋友可以关注
+﻿原作者很久未更新了，本着研究学习的目的重新配置了一下最新版本android studio(0.8.9)的项目文件，方便一键生成调试，定期适配最新版本的android studio，并根据自己的学习修改相应的源代码，有兴趣的朋友可以关注
 ================
 forked from https://github.com/NovelanceF/Dribbble_rebuild
 ----------------
@@ -8,7 +8,7 @@ forked from https://github.com/NovelanceF/Dribbble_rebuild
 A Dribbble client for android
 ================
 
-<a href="https://github.com/NovelanceF/Dribbble/app/demo/Dribbb-debug-unaligned-version-1.0.apk?raw=true"> APK下载</href>
+<a href="https://github.com/120910383/Dribbble/blob/master/app/demo/Dribbb-debug-unaligned-version-1.0.apk?raw=true"> APK下载</href>
 
 
 <br />
