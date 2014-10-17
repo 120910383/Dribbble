@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.lance.dribbble" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service android:name="net.frakbot.imageviewex.service.ImageViewExService" />
+
+        <activity
+            android:name="nl.lance.dribbble.activites.welcome.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.ContentActivity"
+            android:label="@string/title_activity_content" >
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.welcome.GuideActivity"
+            android:label="@string/title_activity_guide"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.PlayerActivity"
+            android:label="@string/title_activity_player"
+            android:theme="@style/PlayerTheme" >
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.UActivity"
+            android:label="@string/title_activity_u" >
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.ShotsDetail"
+            android:label="@string/title_activity_shots_detail"
+            android:theme="@style/DetailActivityTheme" >
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.ChoiceActivity"
+            android:label="@string/title_activity_choice"
+            android:theme="@style/ChoiceTheme" >
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.DActivity"
+            android:label="@string/title_activity_d"
+            android:theme="@style/CollectionTheme">
+        </activity>
+        <activity
+            android:name="nl.lance.dribbble.activites.LoadingActivity"
+            android:label="Loading"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    </application>
+
+</manifest>
